@@ -36,7 +36,7 @@ if (answer3.toUpperCase() === correctAnswer3){
     console.log("You got it wrong...")
 }
 
-const percent = Math.round((correctAnswers / totalQuestions) * 100)
+const percentage = Math.round((correctAnswers / totalQuestions) * 100)
 
 console.log("You got ",correctAnswers,"questions correct")
-console.log("You scored ",percent.toString() + "%")//toString() method converts the numbers to strings for concatenation
+console.log("You scored ",percentage.toString() + "%")//toString() method converts the numbers to strings for concatenation
