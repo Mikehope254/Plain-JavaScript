@@ -9,31 +9,31 @@ const totalQuestions = 3
 const question1 = prompt("What is the brain of the computer? ")
 const correctAnswer1 = "CPU"
 
-if (answer1.toUpperCase() === correctAnswer1){ //.toUpperCase() method converts lowercase input to Uppercase for optionality
+if (question1.toUpperCase() === correctAnswer1){ //.toUpperCase() method converts lowercase input to Uppercase for optionality
     console.log("You got it correct!")
     correctAnswers++
 }else{
-    console.log("You got it wrong")
+    console.log("You got it wrong .. correct answer si CPU")
 }
 
 const question2 = prompt("What is better 3090ti or 4060? ")
 const correctAnswer2 = "3090ti"
 
-if (answer2.toLowerCase() === correctAnswer2){
+if (question2.toLowerCase() === correctAnswer2){
     console.log("You got it correct!")
     correctAnswers++
 }else{
-    console.log("You got it wrong")
+    console.log("You got it wrong ... correct answer is 3090ti")
 }
 
 const question3 = prompt("What is the recommended amount of RAM in 2024? ")
 const correctAnswer3 = "16GB"
 
-if (answer3.toUpperCase() === correctAnswer3){
+if (question3.toUpperCase() === correctAnswer3){
     console.log("You got it correct!")
     correctAnswers++
 }else{
-    console.log("You got it wrong...")
+    console.log("You got it wrong... correct answer is 16GB")
 }
 
 const percentage = Math.round((correctAnswers / totalQuestions) * 100)
